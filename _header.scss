@@ -1,0 +1,28 @@
+.header{
+    margin: 0;
+    
+    &__logo{
+        width: 100%;
+    }
+    &__img{
+        height: 310px;
+        
+    }
+    &__forms{
+        text-align: right;
+        margin-top: -3px;
+    }
+    &__txt{
+        
+        background: $color-black;
+        padding: 10px;
+
+    }
+    &__title{
+        color:$color-white;
+        font-size: 18px;
+        position: relative;
+        right: 40px;
+        
+    }
+}

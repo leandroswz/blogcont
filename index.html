@@ -5,202 +5,198 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Blog</title>
 </head>
 
 <body>
-
-    <nav>
-        <a href="https://www.linkedin.com/in/leandrocostap/">Contato</a>
-        <a href="#">Sobre</a>
-        <a href="#">Inicio</a>
+    
+    <nav class="nav__menu menu">
+        <a class="menu__link" href="https://www.linkedin.com/in/leandrocostap/">Contato</a>
+        <a class="menu__link" href="#">Sobre</a>
+        <a class="menu__link" href="#">Inicio</a>
     </nav>
 
     <header class="header">
-        <div class="logo">
-            <img class="logo__topo" src="img/123.jpg" width="100%" alt="">
-
-            <div class="forms">
-                <div class="center-text">
-                <h5 class="h5">Para mais informações</h5>
-                <input type="text" name id placeholder="Digite aqui seu email">
-                <button style="border-radius:5px">Enviar</button>
+        <div class="header__logo">
+            <img class="header__img" src="img/123.jpg" width="100%" alt="">
+        </div>
+            <div class="header__forms">
+                <div class="header__txt">
+                <h5 class="header__title">Para mais informações</h5>
+                <input class="header__input" type="text" name id placeholder="Digite aqui seu email">
+                <button class="header__bnt" style="border-radius:5px">Enviar</button>
                 </div>
             </div>
-        </div>
+        
 
     </header>
     
-    <div class="container">
-    <h1>PARA SE TORNAR UM DESENVOLVEDOR FRONT-END ↓</h1>
+<main class="corpo">
 
-    <div>
-        <p>
-            O desenvolvedor front-end é responsável pela experiência do usuário dentro de uma aplicação web, é ele quem vai desenhar e desenvolver as páginas com as quais, posteriormente, o usuário irá interagir. O front-end também inclui elementos que determinam a identidade visual de um site ou aplicativo, por isso, além do conhecimento de linguagens de programação específicas, um desenvolvedor dessa área só tem a ganhar se tiver noções de design, arquitetura da informação e UX.
-            Para ser um desenvolvedor front-end você precisa se familiarizar com lógica de programação aprender algumas linguagens, como HTML, CSS, Javascript e Flash. Essas são as principais linguagens utilizadas para criar interfaces de uma aplicação. </p>
+    <div class="frontend">
 
+        <h1 class="frontend__title">PARA SE TORNAR UM DESENVOLVEDOR FRONT-END ↓</h1>
+        <br>
 
-
-        <div class="imagemmeio">
-            <img src="img/pngwing.com (5).png" height="150px" alt="">
+        <p class="frontend__p">
+            O desenvolvedor front-end é responsável pela experiência do usuário dentro de uma aplicação web, é ele quem vai desenhar e desenvolver as páginas com as quais, posteriormente, o usuário irá interagir. </p>
             <br>
-            <img src="img/pngwing.com (3).png" height="150px" alt="">
+            <p class="frontend__p">O front-end também inclui elementos que determinam a identidade visual de um site ou aplicativo, por isso, além do conhecimento de linguagens de programação específicas, um desenvolvedor dessa área só tem a ganhar se tiver noções de design, arquitetura da informação e UX.</p>
+            <br>
+            <p class="frontend__p">Para ser um desenvolvedor front-end você precisa se familiarizar com lógica de programação aprender algumas linguagens, como HTML, CSS, Javascript e Flash. Essas são as principais linguagens utilizadas para criar interfaces de uma aplicação. </p>
+
+
+        <div class="frontend__imagens">
+        <figure class="frontend__pc">
+            <img class="frontend__img" src="img/pngwing.com (5).png" height="150px" alt="">
+        </figure>
+        
+        <figure class="frontend__tecnologias">
+            <img class="frontend__img" src="img/pngwing.com (3).png" height="150px" alt="">
+        </figure>
         </div>
-
+    
     </div>
 
-    <div class="accordion_div">
+    <div class="container">
 
-    <button class="accordion">Lógica de Programação</button>
-    <div class="panel">
-        <p>Lógica de programação é a organização coesa de uma sequência de instruções voltadas à resolução de um problema, ou à criação de um software ou aplicação.
+    <div class="logica">
+        <button class="logica__btn">Lógica de Programação</button>
 
-            A lógica de programação é o conhecimento anterior a qualquer outro quando falamos em desenvolvimento web porque é a partir dele que os aprendizados posteriores, como por exemplo o das linguagens de programação, fará sentido.
+        <p class="logica__p">Lógica de programação é a organização coesa de uma sequência de instruções voltadas à resolução de um problema, ou à criação de um software ou aplicação.</p>
+        
+        <p class="logica__p">A lógica de programação é o conhecimento anterior a qualquer outro quando falamos em desenvolvimento web porque é a partir dele que os aprendizados posteriores, como por exemplo o das linguagens de programação, fará sentido.</p>
+        
+        <p class="logica__p">Cada linguagem tem suas próprias particularidades, como sua sintaxe, seus tipos de dados e sua orientação, mas a lógica por trás de todas é a mesma.</p>
+    </div>
+    <br>
+
+    <div class="html">
+        <button class="html__btn">HTML</button>
+
+        <p class="html__p">Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto.  O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.</p>
+
+        <p class="html__p">Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações.</p>
             
-            Cada linguagem tem suas próprias particularidades, como sua sintaxe, seus tipos de dados e sua orientação, mas a lógica por trás de todas é a mesma.</p>
+        <p class="html__p">Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, era comum encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página</p>
     </div>
 
-    <button class="accordion">HTML</button>
-    <div class="panel">
-        <p>Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto.  O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.
+    <div class="css__style css">
+    <button class="css__btn">CSS</button>
 
-            Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações.
+        <p class="css__p">CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense  na decoração da sua página. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante.
+
+        <p class="accordion__p">CSS foi desenvolvido pelo W3C (World Wide Web Consortium) em 1996, por uma razão bem simples. O HTML não foi projetado para ter tags que ajudariam a formatar a página. Você deveria apenas escrever a marcação para o site.</p>
             
-            Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, era comum encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página</p>
+        <p class="accordion__p">Tags como <font> foram introduzidas na versão 3.2 do HTML e causaram muitos problemas para os desenvolvedores. Como os sites tinham diferentes fontes, cores e estilos, era um processo longo, doloroso e caro para reescrever o código. Assim, o CSS foi criado pelo W3C para resolver este problema.</p>
+            
+        <p class="accordion__p">A relação entre HTML e CSS é bem forte. Como o HTML é uma linguagem de marcação (o alicerce de um site) e o CSS é focado no estilo (toda a estética de um site), eles andam juntos.</p>
+            
+        <p class="accordion__p">CSS não é tecnicamente uma necessidade, mas provavelmente você não gostaria de olhar para um site que usa apenas HTML, pois isso pareceria completamente abandonado.</p>
     </div>
 
-    <button class="accordion">CSS</button>
-    <div class="panel">
-        <p>CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense  na decoração da sua página. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante.
-
-            CSS foi desenvolvido pelo W3C (World Wide Web Consortium) em 1996, por uma razão bem simples. O HTML não foi projetado para ter tags que ajudariam a formatar a página. Você deveria apenas escrever a marcação para o site.
-            
-            Tags como <font> foram introduzidas na versão 3.2 do HTML e causaram muitos problemas para os desenvolvedores. Como os sites tinham diferentes fontes, cores e estilos, era um processo longo, doloroso e caro para reescrever o código. Assim, o CSS foi criado pelo W3C para resolver este problema.
-            
-            A relação entre HTML e CSS é bem forte. Como o HTML é uma linguagem de marcação (o alicerce de um site) e o CSS é focado no estilo (toda a estética de um site), eles andam juntos.
-            
-            CSS não é tecnicamente uma necessidade, mas provavelmente você não gostaria de olhar para um site que usa apenas HTML, pois isso pareceria completamente abandonado.
-            
-            </p>
-    </div>
-
-    <button class="accordion">Desing Responsivo</button>
-    <div class="panel">
+    
+    <div class="desing__responsivo desing">
+        <button class="desing__btn">Desing Responsivo</button>
         <p>Design Responsivo é a ação de fazer com que uma página na internet possa ser acessada por qualquer tipo de aparelho ou máquina, independente da sua resolução de tela. Isso inclui computadores, notebooks, tablets, smartphones e outros dispositivos portáteis.
 
-            Esta característica é alcançada com a combinação de duas linguagens de programação bastante populares: o HTML, responsável pela estrutura textual, e o CSS, que compõe e agrupa todo o estilo visual de um site.
+        <p class="desing__p">Esta característica é alcançada com a combinação de duas linguagens de programação bastante populares: o HTML, responsável pela estrutura textual, e o CSS, que compõe e agrupa todo o estilo visual de um site.</p>
             
-            O objetivo principal de um site com design responsivo é fazer com que ele possa ser acessado por um maior número de pessoas possível. Quanto mais aparelhos, telas e resoluções ele for compatível, maior serão as chances de conseguir atrair grandes quantidades de tráfego.
+        <p class="desing__p">O objetivo principal de um site com design responsivo é fazer com que ele possa ser acessado por um maior número de pessoas possível. Quanto mais aparelhos, telas e resoluções ele for compatível, maior serão as chances de conseguir atrair grandes quantidades de tráfego.</p>
             
-            Além disso, o conceito de Design Responsivo pode também ser estendido à Experiência do Usuário. Pouco adianta um site ser responsivo se ele não entrega uma alta qualidade de usabilidade, considerando a coerência no posicionamento dos elementos junto com o desempenho. Seja em qualquer tipo de aparelho em que for acessado. </p>
+        <p class="desing__p">Além disso, o conceito de Design Responsivo pode também ser estendido à Experiência do Usuário. Pouco adianta um site ser responsivo se ele não entrega uma alta qualidade de usabilidade, considerando a coerência no posicionamento dos elementos junto com o desempenho. Seja em qualquer tipo de aparelho em que for acessado. </p>
     </div>
 
-    <button class="accordion">Java Script</button>
-    <div class="panel">
-        <p>JavaScript é uma linguagem de programação criada em 1995 por Brendan Eich enquanto trabalhava na Netscape Communications Corporation. Originalmente projetada para rodar no Netscape Navigator, ela tinha o propósito de oferecer aos desenvolvedores formas de tornar determinados processos de páginas web mais dinâmicos, tornando seu uso mais agradável. Um ano depois de seu lançamento, a Microsoft portou a linguagem para seu navegador, o que ajudou a consolidar a linguagem e torná-la uma das tecnologias mais importantes e utilizadas na internet.
+    <div class="javascript java">
+        <button class="java__btn">Java Script</button>
+        <p class="java__p">JavaScript é uma linguagem de programação criada em 1995 por Brendan Eich enquanto trabalhava na Netscape Communications Corporation. Originalmente projetada para rodar no Netscape Navigator, ela tinha o propósito de oferecer aos desenvolvedores formas de tornar determinados processos de páginas web mais dinâmicos, tornando seu uso mais agradável. Um ano depois de seu lançamento, a Microsoft portou a linguagem para seu navegador, o que ajudou a consolidar a linguagem e torná-la uma das tecnologias mais importantes e utilizadas na internet.
 
-            Embora ela tenha esse nome, não se deve confundir JavaScript com Java, linguagem de programação desenvolvida pela Sun Microsystems: antes, a linguagem criada pela Netscape recebera nomes como LiveScript e Mocha, mas, para aproveitar o grande sucesso da linguagem da Sun no mercado, os executivos da Netscape resolveram mudar o nome de sua linguagem para o atual. Entretanto, Java e Java Script são completamente diferentes e possuem propósitos diversos.
-            
-            </p>
+        <p class="java__p">Embora ela tenha esse nome, não se deve confundir JavaScript com Java, linguagem de programação desenvolvida pela Sun Microsystems: antes, a linguagem criada pela Netscape recebera nomes como LiveScript e Mocha, mas, para aproveitar o grande sucesso da linguagem da Sun no mercado, os executivos da Netscape resolveram mudar o nome de sua linguagem para o atual. Entretanto, Java e Java Script são completamente diferentes e possuem propósitos diversos.</p>
     </div>
 
 </div>
 
 
-    <article class="conteudos">
-        <div class="funcao border">
-            <h4>Função:</h4>
-            <p class="paragrafo">Desenvolvedor com HTML,CSS<br>JavaScript,Optimização de WebSites e
+    <article class="article">
+        <div class="funcao__conteudo funcao">
+            <h4 class="funcao__title">Função:</h4>
+            <p class="funcao__p">Desenvolvedor com HTML,CSS<br>JavaScript,Optimização de WebSites e
                 Interfaces<br>melhorar Usabilidade</p>
         </div>
 
-        <div class="formacao border">
-            <h4>Formação:</h4>
-            <p class="paragrafo">Licenciatura em Engenharia,<br>Informatica ou de Sistemas.Bootcamps,Cursos online e
+        <div class="formacao">
+            <h4 class="formacao__title">Formação:</h4>
+            <p class="formacao__p">Licenciatura em Engenharia,<br>Informatica ou de Sistemas.Bootcamps,Cursos online e
                 Autodidata</p>
         </div>
 
-        <div class="qualificacao ">
-            <h4>Qualificação:</h4>
-            <p class="paragrafo">HTML,CSS,JavaScript,FrameWorks<br>Bootstrap,Angular,ReactJS,VueJS,NextJs,Media
+        <div class="qualificacao">
+            <h4 class="qualificacao__title">Qualificação:</h4>
+            <p class="qualificacao__p">HTML,CSS,JavaScript,FrameWorks<br>Bootstrap,Angular,ReactJS,VueJS,NextJs,Media
                 Squerie,Desing Responsivo</p>
         </div>
 
     </article>
 
-    <h1 class="frametexto">FRAMEWORKS</h1>
-
-    <div class="frame">
-        <img src="img/pngwing.com (4).png" height="200px" alt="">
+    <div class="framework">
+        <h1 class="framework__title">FRAMEWORKS</h1>
+        <img class="framework__logo" src="img/pngwing.com (4).png" height="200px" alt="">
     </div>
 
-    <div class="framework">
-        <h1 class="framework__title"> O QUE É FRAMEWORK?  </h1>
-        <p class="framework__txt">
-            
-            
+    <div class="framework__txt">
+        <h1 class="framework__subtitle"> O QUE É FRAMEWORK?  </h1>
+        <p class="framework__p">
             Framework é uma definição que vai além do mercado de software. Em outros contextos, refere-se a uma série de
             ações e estratégias que visam solucionar um problema bem específico. Assim, quando se deparam com esse
-            cenário, os profissionais recorrem a um conjunto pronto de abordagens e otimizam os seus resultados.
-
-            Na área de tecnologia, a definição é semelhante, mas de acordo com os aspectos técnicos de programação de
+            cenário, os profissionais recorrem a um conjunto pronto de abordagens e otimizam os seus resultados.</p>
+            <p class="framework__p">Na área de tecnologia, a definição é semelhante, mas de acordo com os aspectos técnicos de programação de
             sistemas. Trata-se de uma série de bibliotecas e classes — ou seja, códigos prontos — que oferecem alguma
             funcionalidade específica. Em outras palavras, é um padrão que pode ser incorporado a sistemas para agilizar
-            a codificação de certas partes.
-
-            Simplificando, é como se fossem peças prontas que podem ser inseridas em um carro. Essas peças apresentam
+            a codificação de certas partes.</p>
+            <p class="framework__p">Simplificando, é como se fossem peças prontas que podem ser inseridas em um carro. Essas peças apresentam
             uma função específica e só funcionam dentro do contexto inteiro, por isso ajudam quando o motorista precisa
-            economizar o dinheiro do conserto de alguma peça defeituosa. </p>
+            economizar o dinheiro do conserto de alguma peça defeituosa.</p>    
         <br>
-        <h1 class="framework__title">QUAIS AS VANTAGENS DE UTILIZAR FRAMEWORK?</h1>
-        <p class="framework__txt">
-                
-            
+
+        <h1 class="framework__subtitle">QUAIS AS VANTAGENS DE UTILIZAR FRAMEWORK?</h1>
+        <p class="framework__p">
             Redução de tempo
             Uma das principais vantagens é a agilidade e economia do tempo. Afinal, essas ferramentas facilitam o
             desenvolvimento dos sistemas, permitindo que os programadores não percam tempo com funcionalidades mais
             básicas.</p>
 
-            <p class="framework__txt">Desse modo, eles podem investir recursos nas funções e requisitos específicos do sistema, que o diferencia
+            <p class="framework__p">Desse modo, eles podem investir recursos nas funções e requisitos específicos do sistema, que o diferencia
             de outros já existentes. Assim, a produtividade aumenta consideravelmente, já que há menos desperdício de
             tempo e esforço. Isso, no geral, contribui para resultados melhores e maior satisfação dos clientes.</p>
         <br>
-        <h1 class="framework__title">QUAIS AS DESVANTAGENS DE UTILIZAR FRAMEWORKS?</h1>
-        <p class="framework__txt">
-                
-        
-            Problemas de configuração
+        <h1 class="framework__subtitle">QUAIS AS DESVANTAGENS DE UTILIZAR FRAMEWORKS?</h1>
+        <p class="framework__p">
+
+            <p>Problemas de configuração
             Do outro lado da análise, percebemos que os frameworks podem ser complexos para configurar em alguns casos.
             Por isso, é mais difícil adaptá-lo ao que já está implementado e garantir a comunicação deles com outras
-            partes do sistema que está sendo criado.
-
-            Além disso, há um grande consumo de tempo para instalações e definições antes mesmo do desenvolvedor
-            conseguir usar os códigos.
-
-            Dependência
+            partes do sistema que está sendo criado.</p>
+            <p>Além disso, há um grande consumo de tempo para instalações e definições antes mesmo do desenvolvedor
+            conseguir usar os códigos.</p>
+            <p>Dependência
             Outro problema do uso exagerado de funcionalidades prontas é a dependência. Usar muitos deles é como
-            construir um sistema com partes distintas criadas e modificadas externamente.
-
-            Assim, caso o framework sofra algum problema, o sistema no qual ele foi utilizado também é afetado. É como
-            ter uma parte danificada em um carro, por exemplo: o veículo inteiro acaba sofrendo por isso.
-
-            Códigos desnecessários
+            construir um sistema com partes distintas criadas e modificadas externamente.</p>
+            <p>Assim, caso o framework sofra algum problema, o sistema no qual ele foi utilizado também é afetado. É como
+            ter uma parte danificada em um carro, por exemplo: o veículo inteiro acaba sofrendo por isso.</p>
+            <p>Códigos desnecessários
             Existem frameworks mais pesados que buscam resolver problemas maiores. O ideal é ser uma ferramenta mais
-            completa e otimizar o dia a dia do desenvolvedor.
-
-            Contudo, eles podem ser uma dor de cabeça para instalar, como já comentamos, e às vezes trazem mais códigos
-            e especificações do que o necessário. Desse modo, o código fica cheio de configurações que não são
-            importantes no contexto. </p>
+            completa e otimizar o dia a dia do desenvolvedor.</p>
+            <p>Contudo, eles podem ser uma dor de cabeça para instalar, como já comentamos, e às vezes trazem mais códigose especificações do que o necessário. Desse modo, o código fica cheio de configurações que não são importantes no contexto. </p>
     </div>
-</div>
+</main>
 
 
-    <div class="footer">
-        <footer>
-            <p>Por Leandro Costa - 2021</p>
+        <footer class="footer">
+            <p class="footer__p">Por Leandro Costa - 2021</p>
         </footer>
-    </div>
+
 
     <script src="script.js"></script>
 

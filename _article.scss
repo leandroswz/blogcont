@@ -1,0 +1,87 @@
+.article{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:  0.5em;
+    background-color: $color-blue;
+    padding: 0 0px;
+    text-align: center;
+
+    .funcao{
+
+
+        &__title{
+                display: block;
+                margin-block-start: 1.33em;
+                margin-block-end: 1.33em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                font-weight: bold;
+                }
+        &__p{
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                }
+        }
+        &__title{
+            display: block;
+            margin-block-start: 1.33em;
+            margin-block-end: 1.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            }
+        &__p{
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        } 
+    }
+    .formacao{
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        
+        &__title{
+            display: block;
+            margin-block-start: 1.33em;
+            margin-block-end: 1.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            }
+        &__p{
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            }
+            
+            @media screen and (max-width: 480px){
+        
+               border: none;
+               border-top: 1px solid;
+            }
+        }
+    .qualificacao{
+            &__title{
+                display: block;
+                margin-block-start: 1.33em;
+                margin-block-end: 1.33em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                font-weight: bold;
+                }
+            &__p{
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+            }
+        }

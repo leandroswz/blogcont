@@ -1,5 +1,5 @@
 
-    let acc = document.getElementsByClassName("accordion");
+    let acc = document.getElementsByClassName("logica__p");
     
     for (i = 0; i < acc.length; i++) {
         acc[i].onclick = function(){

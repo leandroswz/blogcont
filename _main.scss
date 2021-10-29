@@ -1,0 +1,131 @@
+.corpo{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.frontend{
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    
+    &__title{
+        text-align: center;
+        margin: 10px 0px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    &__p{
+        text-align: justify;
+
+    }
+    &__imagens{
+        text-align: center;
+        margin: 20px;
+    }
+}
+.logica{
+
+    &__btn{
+        background-color: $color-white;
+        color:$color-grey;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+    
+    &__p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+.html{
+    &__btn{
+        background-color:$color-white;
+        color: $color-grey;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    &__p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+.css{
+    &__btn{
+        background-color:$color-white;
+        color: $color-grey;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    &__p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+.desing {
+    &__btn{
+        background-color: $color-white;
+        color: $color-grey;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    &__p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+.java {
+    &__btn{
+        background-color: $color-white;
+        color: $color-grey;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+    
+    &__p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
